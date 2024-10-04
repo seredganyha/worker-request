@@ -4,8 +4,8 @@ import { v4 as uuidv4 } from 'uuid';
 export default class WorkerQuery extends Worker {
   private pendingRequests: Map<string, (response: WorkerResponse) => void> = new Map();
 
-  constructor(workerPath: string | URL) {
-    super(workerPath);
+  constructor(scriptURL: string | URL, options?: WorkerOptions) {
+    super(scriptURL, options);
 
     this.onmessage = (event: MessageEvent<WorkerInternalMessage>) => {
       const { requestId } = event.data;

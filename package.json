@@ -1,6 +1,6 @@
 {
   "name": "web-worker-query",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "./dist/index.web-worker-query.js",  "scripts": {
     "build": "tsc --project ./tsconfig.json --watch",
     "build:prod": "tsc --project ./src/tsconfig.prod.json"
