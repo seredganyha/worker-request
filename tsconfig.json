@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "Node16",
+    "skipLibCheck": true,
+    "strict": true,
+    "module": "Node16",
+    "rootDir": "./src"
+  },
+  "exclude": [
+    "/node_modules",
+    "./src/index.lib.ts",
+    "./src/tsconfig.prod.json"
+  ]
+}

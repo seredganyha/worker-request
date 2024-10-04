@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "Node16",
+    "removeComments": true,
+    "skipLibCheck": true,
+    "outDir": "../dist",
+    "strict": true,
+    "module": "Node16",
+    "rootDir": "./",
+    "declaration": true
+  },
+  "exclude": [
+    "/node_modules",
+    "./index.ts"
+  ]
+}
